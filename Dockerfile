@@ -1,4 +1,4 @@
 # Author: Eric Tsai
-FROM jupyter/scipy-notebook:85f615d5cafa
+FROM jupyter/scipy-notebook
 
-RUN pip install docopt-ng==0.8.1 -y
+RUN conda install --yes docopt=0.6.*
